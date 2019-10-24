@@ -42,3 +42,7 @@ for i in range(1, len(name)):
 
 # Slicing and dicing
 
+print(name[2:-2])
+
+for i in range(0, len(name)):
+    print(name[0:i])
