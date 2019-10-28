@@ -60,3 +60,7 @@ string = "python is awesome"
 new_string = string.center(24)
 print('Centered String: ', new_string)
 
+# Character functions
+
+print(ord('&'))
+print(chr(75))
