@@ -64,3 +64,8 @@ print('Centered String: ', new_string)
 
 print(ord('&'))
 print(chr(75))
+
+from mapper import *
+print(letterToIndex('M'))
+
+print(indexToletter(24))
