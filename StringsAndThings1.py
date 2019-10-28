@@ -53,3 +53,10 @@ print('Biv' in name)
 
 if 'y' not in name:
     print('y is not in name')
+else:
+    print('y is in the name')
+
+string = "python is awesome"
+new_string = string.center(24)
+print('Centered String: ', new_string)
+
