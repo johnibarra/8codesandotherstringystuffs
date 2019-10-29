@@ -69,3 +69,4 @@ from mapper import *
 print(letterToIndex('M'))
 
 print(indexToletter(24))
+
