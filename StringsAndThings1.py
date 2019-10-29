@@ -70,3 +70,6 @@ print(letterToIndex('M'))
 
 print(indexToletter(24))
 
+from crypto import *
+
+print(scramble2Encrypt("THE MEETING IS AT FIVE OCLOCK"))
