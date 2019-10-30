@@ -86,3 +86,15 @@ def getMode():
             return mode
         else:
             print('enter either "encrypt" or "e" or "decrypt" or "d".')
+
+def getMessage():
+    print('enter your message')
+    return input()
+
+def getKey():
+    key = 0
+    while True:
+        print('enter the key number (1-%s)' % (MAX_KEY_SIZE))
+        key = int(input())
+        if (key >= 1 and key <= MAX_KEY_SIZE):
+            return key
