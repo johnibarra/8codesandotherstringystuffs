@@ -28,3 +28,5 @@ def scramble2Decrypt(cipherText):
         plainText = plainText + evenChars[-1]
 
     return plainText
+
+# write a stripSpaces oit
