@@ -73,3 +73,16 @@ print(indexToletter(24))
 from crypto import *
 
 print(scramble2Encrypt("THE MEETING IS AT FIVE OCLOCK"))
+
+# Caeser Cipher
+
+MAX_KEY_SIZE = 26
+
+def getMode():
+    while True:
+        print('do you wish to encrypt or decrypt a message?')
+        mode = input().lower()
+        if mode in 'encrypt e decrypt d'.split():
+            return mode
+        else:
+            print('enter either "encrypt" or "e" or "decrypt" or "d".')
